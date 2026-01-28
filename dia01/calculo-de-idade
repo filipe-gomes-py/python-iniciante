@@ -1,0 +1,4 @@
+pergunta = input("Qual sua data de nascimento?")
+ano_nascimento = int(pergunta)
+ano_atual = 2026
+print("Voce tem ", ano_atual - ano_nascimento, " anos!")
