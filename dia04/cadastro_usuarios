@@ -1,0 +1,12 @@
+def main():
+    lista = []
+    while True:
+        usuario = input("Escolha um nome de usuario ou digite 'cancelar'. ")
+        if usuario == "cancelar":
+            break
+        else:
+            lista.append(usuario)
+            print("Usuario Cadastrado com sucesso! ")
+            print(lista)
+            
+main()
